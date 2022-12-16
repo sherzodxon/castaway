@@ -1,0 +1,32 @@
+.listen {
+    display: flex;
+}
+
+.listen-item {
+    &:nth-child(1) {
+        margin-right: 17px;
+        background: url(../../img/listen1.svg) no-repeat center center;
+    }
+    &:nth-child(2) {
+        margin-right: 17px;
+        background: url(../../img/listen2.svg) no-repeat center center;
+    }
+    &:nth-child(3) {
+        margin-right: 17px;
+        background: url(../../img/listen3.svg) no-repeat center center;
+    }
+    &:nth-child(4) {
+        margin-right: 17px;
+        background: url(../../img/listen4.svg) no-repeat center center;
+    }
+    &:nth-child(5) {
+        margin-right: 17px;
+        background: url(../../img/listen5.svg) no-repeat center center;
+    }
+}
+
+.listen-link {
+    display: block;
+    width: 32px;
+    height: 32px;
+}

@@ -332,6 +332,8 @@ body {
   margin: 0 auto;
   padding: 0;
   font-family: "Dm Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   width: 1440px;
   background: rgb(25, 25, 25);
   color: #fff;
@@ -347,12 +349,17 @@ a {
   color: #fff;
 }
 
-h1, h2, h3, h4, p {
+h1,
+h2,
+h3,
+h4,
+p {
   margin: 0;
   padding: 0;
 }
 
-ul, ol {
+ul,
+ol {
   padding: 0;
   list-style: none;
 }
@@ -369,7 +376,7 @@ ul, ol {
 }
 
 :root {
-  --blue:rgba(17, 141, 168, 1);
+  --blue: rgba(17, 141, 168, 1);
   --black: rgba(0, 0, 0, 1);
 }
 
@@ -377,4 +384,40 @@ ul, ol {
   width: 1320px;
   margin: 0 auto;
   padding: 0 10px;
+}
+
+.header {
+  padding-top: 43px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50px;
+  width: 1340px;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-item {
+  margin-right: 43px;
+}
+.header-item:nth-child(1) {
+  margin-right: 44px;
+}
+.header-item:nth-child(4) {
+  margin-right: 0px;
+  padding-right: 3px;
+}
+
+.header-item-link {
+  font-size: 17px;
+  line-height: 27px;
+  letter-spacing: 0.03px;
+}
+.header-item-link:hover {
+  color: var(--blue);
 }/*# sourceMappingURL=main.css.map */

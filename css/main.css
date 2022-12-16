@@ -595,4 +595,62 @@ ol {
   font-size: 18px;
   line-height: 27px;
   padding-top: 14px;
+}
+
+.person {
+  margin-top: 260px;
+}
+
+.person-container {
+  width: 1320px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 0;
+}
+
+.person-link {
+  display: block;
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  background-color: var(--blue);
+  position: relative;
+  margin-top: 148px;
+}
+.person-link::after {
+  position: absolute;
+  width: 71px;
+  height: 38px;
+  content: "";
+  background: url(../../img/person-aft.png) no-repeat center center;
+  background-size: contain;
+  top: calc(50% - 21px);
+  left: calc(50% - 40px);
+}
+
+.person-link-info {
+  color: var(--blue);
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 20px;
+}
+
+.person-name {
+  font-size: 65px;
+  line-height: 79px;
+  letter-spacing: 2.88px;
+  margin-bottom: 28px;
+}
+
+.person-text {
+  font-size: 22px;
+  line-height: 33px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 33px;
+  width: 556px;
+}
+
+.person-img {
+  border-radius: 13px;
 }/*# sourceMappingURL=main.css.map */

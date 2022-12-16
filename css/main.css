@@ -605,7 +605,7 @@ ol {
   width: 1320px;
   display: flex;
   justify-content: space-between;
-  padding-left: 20px;
+  padding-left: 17px;
   padding-right: 0;
 }
 
@@ -653,4 +653,76 @@ ol {
 
 .person-img {
   border-radius: 13px;
+}
+
+.update {
+  margin-top: 201px;
+  margin-left: 15px;
+}
+
+.update-container {
+  padding: 60px;
+  background-color: var(--black);
+  border-radius: 32px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  padding-bottom: 75px;
+}
+.update-container::after {
+  position: absolute;
+  width: 147px;
+  height: 91px;
+  content: "";
+  background: url(../../img/update-after.png) no-repeat center center;
+  bottom: -26px;
+  left: -37px;
+}
+
+.update-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--blue);
+}
+
+.update-text {
+  font-size: 72px;
+  line-height: 79px;
+  letter-spacing: 2.88px;
+  width: 431px;
+}
+
+.update-form {
+  display: flex;
+  flex-direction: column;
+  width: 522px;
+}
+
+.update-input {
+  border: none;
+  border: 1px solid rgb(25, 25, 25);
+  background: rgb(25, 25, 25);
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.7);
+  border-radius: 6px;
+  padding: 25px 40px 26px 19px;
+  margin-bottom: 20px;
+}
+.update-input:focus {
+  background-color: var(--black);
+  outline: 1px solid rgb(25, 25, 25);
+}
+
+.update-button {
+  border: none;
+  display: inline-block;
+  max-width: 87px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 9px 16px 10px 20px;
 }/*# sourceMappingURL=main.css.map */

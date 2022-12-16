@@ -1,0 +1,44 @@
+.footer {
+    margin-top: 203px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer-logo-wrapper {
+    margin-right: 239px;
+}
+
+.footer-frem-list {
+    display: flex;
+    margin-top: 19px;
+    
+}
+
+.footer-frem-item {
+    margin-right: 9px;
+}
+.footer-nav-list{
+    margin-right: 125px;
+}
+.footer-info-list{
+    margin-right: 21px;
+}
+.footer-item{
+    margin-bottom: 10px;
+    
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+.footer-link {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+ 
+}
+.sizex{
+    font-size: 18px;
+}

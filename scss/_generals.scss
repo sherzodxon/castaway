@@ -55,3 +55,12 @@ ol {
   --blue: rgba(17, 141, 168, 1);
   --black: rgba(0, 0, 0, 1);
 }
+
+.link {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  padding: 12px 20px;
+  background: var(--blue);
+  border-radius: 6px;
+}

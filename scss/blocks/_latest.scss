@@ -1,0 +1,98 @@
+.latest {
+    margin-top: 93px;
+    margin-left: 18px;
+}
+
+.latest-container {
+    width: 1320px;
+}
+
+.latest-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 68px;
+}
+
+.latest-title {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+}
+
+.latest-head-link {
+    display: block;
+    width: 178px;
+    margin-bottom: -5px;
+}
+
+.latest-item {
+    background-color: var(--black);
+    border-radius: 32px;
+    padding: 40px;
+    display: flex;
+    margin-bottom: 60px;
+
+    &:nth-child(2) {
+        .latest-info {
+            font-size: 17px;
+        }
+
+        .latest-item-title {
+            width: 676px;
+        }
+    }
+
+    &:nth-child(3) {
+        margin-bottom: 0px;
+
+        .latest-item-title {
+            width: 611px;
+            font-size: 57px;
+        }
+    }
+}
+
+.latest-item-img {
+    margin-right: 53px;
+}
+
+.latest-info {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 27px;
+    background: rgba(25, 25, 25, 1);
+    padding: 0 16px;
+    border-radius: 6px;
+    margin-top: 8px;
+}
+
+.latest-episode {
+    color: var(--blue);
+    font-size: 17px;
+    line-height: 27px;
+    margin-top: 48px;
+}
+
+.latest-item-title {
+    font-size: 64px;
+    line-height: 70px;
+    margin-top: 18px;
+    letter-spacing: 2.56px;
+}
+
+.latest-item-text {
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 28px;
+    margin-bottom: 32px;
+}
+
+.latest-item-link {
+    padding-right: 15px;
+    font-size: 18px;
+    line-height: 27px;
+    padding-top: 14px;
+}
